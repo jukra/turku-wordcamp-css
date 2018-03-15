@@ -6,8 +6,11 @@ Editing the layout for WordCamp sites are done by just editing the CSS. This rep
 
 ## How to edit
 Edit the SCSS file in sass folder. Then compile it to CSS with:
+
 `gulp sass`
+
 Or run the watcher which compiles CSS files automatically when the file is edited:
+
 `gulp sass:watch`
 
 ## How to use

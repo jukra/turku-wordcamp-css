@@ -6,7 +6,7 @@ var autoprefixer = require('gulp-autoprefixer');
  
 gulp.task('sass', function () {
   return gulp.src('./sass/*.scss')
-    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer())
     .pipe(gulp.dest('./dist'));
 });

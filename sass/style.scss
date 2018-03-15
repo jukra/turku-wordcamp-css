@@ -26,7 +26,10 @@ body {
     right: 0;
     bottom: 0;
   }
-  padding: 50px 10px 70px;
+  padding-bottom: 20px;
+  @media screen and (max-width: 768px) {
+    padding-top: 10px;
+  }
 }
 
 /* Navigation */
@@ -1817,36 +1820,7 @@ input {
   .site-branding {
     position: relative;
     overflow: hidden;
-    padding: 1.5rem 1rem;
     text-align: center;
-  }
-}
-
-@media (min-width: 37.5em) {
-  .site-header .site-branding {
-    padding: 3rem 2rem;
-  }
-}
-
-@media (min-width: 48em) {
-  .site-header .site-branding {
-    padding: 4.5rem 3rem;
-  }
-}
-
-.home .site-header .site-branding {
-  padding: 3.5rem 1rem;
-}
-
-@media (min-width: 37.5em) {
-  .home .site-header .site-branding {
-    padding: 7rem 2rem;
-  }
-}
-
-@media (min-width: 48em) {
-  .home .site-header .site-branding {
-    padding: 10.5rem 3rem;
   }
 }
 

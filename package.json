@@ -1,0 +1,25 @@
+{
+  "name": "turku-wordcamp-css",
+  "version": "1.0.0",
+  "description": "CSS for https://2018.turku.wordcamp.org",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jukra/turku-wordcamp-css.git"
+  },
+  "author": "Jukka Rautanen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jukra/turku-wordcamp-css/issues"
+  },
+  "homepage": "https://github.com/jukra/turku-wordcamp-css#readme"
+}

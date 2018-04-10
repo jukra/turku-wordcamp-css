@@ -57,7 +57,7 @@ body {
   .menu-item-has-children.focus > .sub-menu, .menu-item-has-children:hover > .sub-menu {
     top: 71px; }
   .menu-item-has-children.focus > a, .menu-item-has-children:hover > a {
-    background-color: #da5f5b !important; }
+    background-color: #21409b !important; }
   .menu-item-has-children > a:after {
     border-top-color: #fff !important; }
   .sub-menu .menu-item {
@@ -221,7 +221,7 @@ input#tix-coupon-input {
   border-radius: .1875rem !important; }
 
 #tix-coupon-container input[type=submit] {
-  background-color: #da5f5b !important;
+  background-color: #21409b !important;
   margin-top: 0; }
 
 td.tix-right input {
